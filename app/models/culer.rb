@@ -1,0 +1,2 @@
+class Culer < ApplicationRecord
+end

@@ -633,3 +633,121 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 1891)
 
 
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT * FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? ORDER BY "ar_internal_metadata"."key" ASC LIMIT 1[0m  [[nil, "environment"]]
+  [1m[36mActiveRecord::InternalMetadata Create (0.8ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ('environment', 'development', '2024-06-18 14:27:21.605198', '2024-06-18 14:27:21.605200') RETURNING "key"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateCulers (20240618141651)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "culers" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "age" integer, "country" varchar, "position" varchar, "kit_number" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ('20240618141651') RETURNING "version"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers" ORDER BY "culers"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2024-06-18 16:42:46 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 93)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 15285)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 16183)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-18 16:44:16 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 89)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 15135)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 16030)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-18 16:44:18 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 6)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1360)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 1599)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-18 16:44:20 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  Rendered culerify/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1093)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1184)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1624)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>All culers</h1>
+    2: <%= @culer.each do |culer| %>
+    3:   <%= culer.name %>
+    4: <% end %>
+  
+app/views/culerify/index.html.erb:2
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCuler Create (0.4ms)[0m  [1m[32mINSERT INTO "culers" ("name", "age", "country", "position", "kit_number", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", "test"], ["age", nil], ["country", nil], ["position", nil], ["kit_number", nil], ["created_at", "2024-06-18 14:44:44.807967"], ["updated_at", "2024-06-18 14:44:44.807967"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mCuler Load (0.3ms)[0m  [1m[34mSELECT "culers".* FROM "culers" ORDER BY "culers"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/culerify" for 127.0.0.1 at 2024-06-18 16:45:07 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  Rendered culerify/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1079)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 1171)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2057)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <h1>All culers</h1>
+    2: <%= @culer.each do |culer| %>
+    3:   <%= culer.name %>
+    4: <% end %> 
+  
+app/views/culerify/index.html.erb:2
+Started GET "/culerify" for 127.0.0.1 at 2024-06-18 16:45:45 +0200
+Processing by CulerifyController#index as HTML
+Completed 404 Not Found in 8ms (ActiveRecord: 1.8ms | Allocations: 6852)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Culer without an ID):
+  
+app/controllers/culerify_controller.rb:3:in `index'
+Started GET "/culerify" for 127.0.0.1 at 2024-06-18 16:46:02 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:2
+  Rendered culerify/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 13613)
+  Rendered layout layouts/application.html.erb (Duration: 37.4ms | Allocations: 28821)
+Completed 200 OK in 40ms (Views: 37.2ms | ActiveRecord: 1.2ms | Allocations: 30292)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-18 16:46:24 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:2
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 4380)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 19505)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 1.3ms | Allocations: 20979)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-18 16:46:33 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:2
+  Rendered culerify/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 404)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1731)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1985)
+
+
