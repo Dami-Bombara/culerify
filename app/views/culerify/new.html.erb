@@ -1,0 +1,28 @@
+<%= form_with url: culerify_path do |form| %>
+  <div>
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <%= form.label :age %>
+    <%= form.number_field :age %>
+  </div>
+
+  <div>
+    <%= form.label :country %>
+    <%= form.text_field :country %>
+  </div>
+
+  <div>
+    <%= form.label :position %>
+    <%= form.text_field :position %>
+  </div>
+
+  <div>
+      <%= form.label :kit_number %>
+      <%= form.number_field :kit_number %>
+  </div>
+
+  <%= form.submit 'Add culer' %>
+<% end %>
