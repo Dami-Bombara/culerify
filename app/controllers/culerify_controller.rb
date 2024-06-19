@@ -14,8 +14,10 @@ class CulerifyController < ApplicationController
     @culer = Culer.create(name: params[:name], age: params[:age], country: params[:country], position: params[:position],
                           kit_number: params[:kit_number])
 
-    redirect_to culerify_url
+    redirect_to culer_url(@culer)
   end
 
-
+  def edit
+    @culer = Culer.find(params[:id])
+  end
 end
