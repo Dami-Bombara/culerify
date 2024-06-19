@@ -2,8 +2,8 @@
 <%= link_to 'Add a Culer', culerify_new_path %>
 <div>
   <table>
+    <thead>
     <tr>
-      <thead>
         <th>ID</th>
         <th>Name</th>
         <th>Age</th>
@@ -11,12 +11,12 @@
         <th>Position</th>
         <th>Kit number</th>
         <th>Actions</th>
-      </thead>
     </tr>
+    </thead>
 
     <% @culer.each do |culer| %>
-      <tr>
-        <tbody>
+      <tbody>
+        <tr>
           <td><%= culer.id %></td>
           <td><%= link_to culer.name, culer_path(culer.id) %></td>
           <td><%= culer.age %></td>
@@ -24,8 +24,13 @@
           <td><%= culer.position %></td>
           <td><%= culer.kit_number %></td>
           <td><%= link_to 'Edit', edit_culer_path(culer.id) %></td>
-        </tbody>
-      </tr>
+          <td>
+            <%= form_with url: destroy_culer_path(culer.id), method: :delete do |f| %>
+              <%= f.submit 'Delete' %>
+            <% end %>
+          </td>
+        </tr>
+      </tbody>
     <% end %>
   </table>
 </div>

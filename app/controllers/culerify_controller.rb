@@ -30,4 +30,12 @@ class CulerifyController < ApplicationController
 
     redirect_to culer_url(id: @culer.id)
   end
+
+  def destroy
+    @culer = Culer.find(params[:id])
+
+    @culer.delete
+
+    redirect_to culerify_path
+  end
 end

@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'culerify/:id/edit', to: 'culerify#edit', as: 'edit_culer'
   get 'culerify/:id', to: 'culerify#show', as: 'culer'
   patch 'culerify/:id', to: 'culerify#update'
+  delete 'culerify/:id', to: 'culerify#destroy', as: 'destroy_culer'
 
   root 'home#index'
 end
