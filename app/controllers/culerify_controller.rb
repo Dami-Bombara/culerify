@@ -8,16 +8,26 @@ class CulerifyController < ApplicationController
   end
 
   def new
+    @culer = Culer.new
   end
 
   def create
-    @culer = Culer.create(name: params[:name], age: params[:age], country: params[:country], position: params[:position],
-                          kit_number: params[:kit_number])
+    @culer = Culer.create(name: params[:culer][:name], age: params[:culer][:age], country: params[:culer][:country],
+                          position: params[:culer][:position], kit_number: params[:culer][:kit_number])
 
     redirect_to culer_url(@culer)
   end
 
   def edit
     @culer = Culer.find(params[:id])
+  end
+
+  def update
+    @culer = Culer.find(params[:id])
+
+    @culer.update(name: params[:culer][:name], age: params[:culer][:age], country: params[:culer][:country],
+                  position: params[:culer][:position], kit_number: params[:culer][:kit_number])
+
+    redirect_to culer_url(id: @culer.id)
   end
 end

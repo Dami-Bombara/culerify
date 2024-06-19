@@ -3,22 +3,28 @@
 <div>
   <table>
     <tr>
-      <th>ID</th>
-      <th>Name</th>
-      <th>Age</th>
-      <th>Country</th>
-      <th>Position</th>
-      <th>Kit number</th>
+      <thead>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Country</th>
+        <th>Position</th>
+        <th>Kit number</th>
+        <th>Actions</th>
+      </thead>
     </tr>
 
     <% @culer.each do |culer| %>
       <tr>
-        <td><%= culer.id %></td>
-        <td><%= link_to culer.name, culer_path(culer.id) %></td>
-        <td><%= culer.age %></td>
-        <td><%= culer.country %></td>
-        <td><%= culer.position %></td>
-        <td><%= culer.kit_number %></td>
+        <tbody>
+          <td><%= culer.id %></td>
+          <td><%= link_to culer.name, culer_path(culer.id) %></td>
+          <td><%= culer.age %></td>
+          <td><%= culer.country %></td>
+          <td><%= culer.position %></td>
+          <td><%= culer.kit_number %></td>
+          <td><%= link_to 'Edit', edit_culer_path(culer.id) %></td>
+        </tbody>
       </tr>
     <% end %>
   </table>
