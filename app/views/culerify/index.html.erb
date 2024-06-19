@@ -1,4 +1,25 @@
 <h1>All culers</h1>
-<% @culer.each do |culer| %>
-  <%= culer.name %><br></br>
-<% end %>
+<%= link_to 'Add a Culer', culerify_new_path %>
+<div>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Country</th>
+      <th>Position</th>
+      <th>Kit number</th>
+    </tr>
+
+    <% @culer.each do |culer| %>
+      <tr>
+        <td><%= culer.id %></td>
+        <td><%= link_to culer.name, culer_path(culer.id) %></td>
+        <td><%= culer.age %></td>
+        <td><%= culer.country %></td>
+        <td><%= culer.position %></td>
+        <td><%= culer.kit_number %></td>
+      </tr>
+    <% end %>
+  </table>
+</div>
