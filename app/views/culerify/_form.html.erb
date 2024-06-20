@@ -1,30 +1,40 @@
 <%= form_with model: @culer, url: url, method: method_value do |form| %>
   <div>
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+  <% if @culer.errors.any? %>
+    <ul>
+      <% @culer.errors.each do |error| %>
+        <li><%= error.full_message %></li>
+      <% end %>
+    </ul>
+  <% end %>
   </div>
 
-  <div>
-    <%= form.label :age %>
-    <%= form.number_field :age %>
-  </div>
+    <div>
+      <%= form.label :name %>
+      <%= form.text_field :name %>
+    </div>
 
-  <div>
-    <%= form.label :country %>
-    <%= form.text_field :country %>
-  </div>
+    <div>
+      <%= form.label :age %>
+      <%= form.number_field :age %>
+    </div>
 
-  <div>
-    <%= form.label :position %>
-    <%= form.text_field :position %>
-  </div>
+    <div>
+      <%= form.label :country %>
+      <%= form.text_field :country %>
+    </div>
 
-  <div>
-    <%= form.label :kit_number %>
-    <%= form.number_field :kit_number %>
-  </div>
+    <div>
+      <%= form.label :position %>
+      <%= form.text_field :position %>
+    </div>
 
-  <%= form.submit submit_text %>
+    <div>
+      <%= form.label :kit_number %>
+      <%= form.number_field :kit_number %>
+    </div>
+
+    <%= form.submit submit_text %>
 <% end %>
 
 <%= link_to 'Back to Culers', culerify_path %>
