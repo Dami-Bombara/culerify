@@ -1,33 +1,37 @@
-<h1>All culers</h1>
-<%= link_to 'Add a Culer', culerify_new_path %>
+<div class="flex justify-between items-center">
+  <h1 class="text-[rgb(237,187,0)] text-2xl font-semibold">All culers</h1>
+  <%= link_to 'Add a Culer', culerify_new_path, class: "px-4 py-2 bg-[rgb(168,19,62)] text-[rgb(237,187,0)] rounded-md font-md" %>
+</div>
+
 <div>
-  <table>
+  <table class="mt-4 text-center">
     <thead>
-    <tr>
-        <th>ID</th>
+      <tr class="bg-gray-100 border border-blue-500">
+        <th class="py-3">ID</th>
         <th>Name</th>
         <th>Age</th>
         <th>Country</th>
         <th>Position</th>
         <th>Kit number</th>
         <th>Actions</th>
-    </tr>
+      </tr>
     </thead>
 
     <% @culer.each do |culer| %>
       <tbody>
-        <tr>
           <td><%= culer.id %></td>
           <td><%= link_to culer.name, culer_path(culer.id) %></td>
           <td><%= culer.age %></td>
           <td><%= culer.country %></td>
           <td><%= culer.position %></td>
           <td><%= culer.kit_number %></td>
-          <td><%= link_to 'Edit', edit_culer_path(culer.id) %></td>
           <td>
-            <%= form_with url: destroy_culer_path(culer.id), method: :delete do |f| %>
-              <%= f.submit 'Delete' %>
-            <% end %>
+            <div class="flex justify-center space-x-4">
+              <%= link_to 'Edit', edit_culer_path(culer.id) %>
+              <%= form_with url: destroy_culer_path(culer.id), method: :delete do |f| %>
+                <%= f.submit 'Delete' %>
+              <% end %>
+            </div>
           </td>
         </tr>
       </tbody>
