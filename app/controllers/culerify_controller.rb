@@ -12,8 +12,7 @@ class CulerifyController < ApplicationController
   end
 
   def create
-    @culer = Culer.create(name: params[:culer][:name], age: params[:culer][:age], country: params[:culer][:country],
-                          position: params[:culer][:position], kit_number: params[:culer][:kit_number])
+    @culer = Culer.create(culer_params)
 
     redirect_to culer_url(@culer)
   end
@@ -25,8 +24,7 @@ class CulerifyController < ApplicationController
   def update
     @culer = Culer.find(params[:id])
 
-    @culer.update(name: params[:culer][:name], age: params[:culer][:age], country: params[:culer][:country],
-                  position: params[:culer][:position], kit_number: params[:culer][:kit_number])
+    @culer.update(culer_params)
 
     redirect_to culer_url(id: @culer.id)
   end
@@ -37,5 +35,10 @@ class CulerifyController < ApplicationController
     @culer.delete
 
     redirect_to culerify_path
+  end
+
+  private
+  def culer_params
+    params.require(:culer).permit(:name, :age, :country, :position, :kit_number)
   end
 end

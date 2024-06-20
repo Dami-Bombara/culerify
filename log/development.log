@@ -8845,3 +8845,230 @@ Processing by CulerifyController#index as HTML
 Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.1ms | Allocations: 2800)
 
 
+Started GET "/culerify" for 127.0.0.1 at 2024-06-19 18:34:18 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:17
+  Rendered culerify/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1421)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2527)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.1ms | Allocations: 2777)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-20 12:25:17 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (2.3ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:17
+  Rendered culerify/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1716)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 2821)
+Completed 200 OK in 13ms (Views: 8.2ms | ActiveRecord: 3.1ms | Allocations: 3072)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-20 12:25:19 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.5ms | Allocations: 1187)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1274)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 2379)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 2634)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-20 12:25:40 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:17
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1451)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2556)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.1ms | Allocations: 2806)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-20 12:25:48 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:17
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1427)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 2532)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.1ms | Allocations: 2782)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-20 12:25:48 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"Dominik Szoboszlai", "age"=>"23", "country"=>"Hungary", "position"=>"CM", "kit_number"=>"20"}, "commit"=>"Add to Culers!"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/culerify_controller.rb:15:in `create'
+  [1m[36mCuler Create (1.0ms)[0m  [1m[32mINSERT INTO "culers" ("name", "age", "country", "position", "kit_number", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", "Dominik Szoboszlai"], ["age", 23], ["country", "Hungary"], ["position", "CM"], ["kit_number", 20], ["created_at", "2024-06-20 10:25:48.789429"], ["updated_at", "2024-06-20 10:25:48.789429"]]
+  ↳ app/controllers/culerify_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/culerify_controller.rb:15:in `create'
+Redirected to http://127.0.0.1:3000/culerify/19
+Completed 302 Found in 7ms (ActiveRecord: 2.0ms | Allocations: 1879)
+
+
+Started GET "/culerify/19" for 127.0.0.1 at 2024-06-20 12:25:48 +0200
+Processing by CulerifyController#show as TURBO_STREAM
+  Parameters: {"id"=>"19"}
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 40)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1382)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.2ms | Allocations: 2019)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-20 12:25:49 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:17
+  Rendered culerify/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1634)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2750)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.1ms | Allocations: 3002)
+
+
+Started GET "/rails/info/routes" for 127.0.0.1 at 2024-06-20 12:39:51 +0200
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /Users/damianbombara/.rvm/gems/ruby-3.2.2/gems/railties-7.1.3.4/lib/rails/templates/layouts/application.html.erb
+  Rendering /Users/damianbombara/.rvm/gems/ruby-3.2.2/gems/railties-7.1.3.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/damianbombara/.rvm/gems/ruby-3.2.2/gems/actionpack-7.1.3.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [34 times] (Duration: 3.3ms | Allocations: 5769)
+  Rendered /Users/damianbombara/.rvm/gems/ruby-3.2.2/gems/actionpack-7.1.3.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.5ms | Allocations: 688)
+  Rendered /Users/damianbombara/.rvm/gems/ruby-3.2.2/gems/railties-7.1.3.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 6.7ms | Allocations: 9968)
+  Rendered layout /Users/damianbombara/.rvm/gems/ruby-3.2.2/gems/railties-7.1.3.4/lib/rails/templates/layouts/application.html.erb (Duration: 6.9ms | Allocations: 10244)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 11136)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-20 13:20:20 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.5ms | Allocations: 1626)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1895)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 16858)
+Completed 200 OK in 18ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 21334)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-20 13:21:02 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"Milan Skriniar", "age"=>"28", "country"=>"Slovakia", "position"=>"CB", "kit_number"=>"5"}, "commit"=>"Add to Culers!"}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/culerify_controller.rb:15:in `create'
+  [1m[36mCuler Create (3.0ms)[0m  [1m[32mINSERT INTO "culers" ("name", "age", "country", "position", "kit_number", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", "Milan Skriniar"], ["age", 28], ["country", "Slovakia"], ["position", "CB"], ["kit_number", 5], ["created_at", "2024-06-20 11:21:02.859081"], ["updated_at", "2024-06-20 11:21:02.859081"]]
+  ↳ app/controllers/culerify_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/culerify_controller.rb:15:in `create'
+Redirected to http://127.0.0.1:3000/culerify/20
+Completed 302 Found in 8ms (ActiveRecord: 4.1ms | Allocations: 2341)
+
+
+Started GET "/culerify/20" for 127.0.0.1 at 2024-06-20 13:21:02 +0200
+Processing by CulerifyController#show as TURBO_STREAM
+  Parameters: {"id"=>"20"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1494)
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 2906)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-20 13:21:03 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:17
+  Rendered culerify/index.html.erb within layouts/application (Duration: 11.6ms | Allocations: 2228)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3344)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.2ms | Allocations: 3657)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-20 13:21:12 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:17
+  Rendered culerify/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1810)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2924)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.1ms | Allocations: 3176)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-20 13:21:19 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.1ms | Allocations: 1617)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1890)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 16844)
+Completed 200 OK in 16ms (Views: 11.5ms | ActiveRecord: 1.0ms | Allocations: 22023)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-20 13:21:23 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"we", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>"1"}, "commit"=>"Add to Culers!"}
+[31mUnpermitted parameter: :kit_number. Context: { controller: CulerifyController, action: create, request: #<ActionDispatch::Request:0x0000000109cf3708>, params: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"we", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>"1"}, "commit"=>"Add to Culers!", "controller"=>"culerify", "action"=>"create"} }[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/culerify_controller.rb:15:in `create'
+  [1m[36mCuler Create (1.3ms)[0m  [1m[32mINSERT INTO "culers" ("name", "age", "country", "position", "kit_number", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", "we"], ["age", nil], ["country", ""], ["position", ""], ["kit_number", nil], ["created_at", "2024-06-20 11:21:23.102404"], ["updated_at", "2024-06-20 11:21:23.102404"]]
+  ↳ app/controllers/culerify_controller.rb:15:in `create'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/culerify_controller.rb:15:in `create'
+Redirected to http://127.0.0.1:3000/culerify/21
+Completed 302 Found in 7ms (ActiveRecord: 2.0ms | Allocations: 2749)
+
+
+Started GET "/culerify/21" for 127.0.0.1 at 2024-06-20 13:21:23 +0200
+Processing by CulerifyController#show as TURBO_STREAM
+  Parameters: {"id"=>"21"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1482)
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 0.1ms | Allocations: 2891)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-20 13:21:23 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:17
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 2409)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 3514)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.2ms | Allocations: 3826)
+
+
+Started DELETE "/culerify/21" for 127.0.0.1 at 2024-06-20 13:21:24 +0200
+Processing by CulerifyController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "commit"=>"Delete", "id"=>"21"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:33:in `destroy'
+  [1m[36mCuler Destroy (0.1ms)[0m  [1m[31mDELETE FROM "culers" WHERE "culers"."id" = ?[0m  [["id", 21]]
+  ↳ app/controllers/culerify_controller.rb:35:in `destroy'
+Redirected to http://127.0.0.1:3000/culerify
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1106)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-20 13:21:24 +0200
+Processing by CulerifyController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:17
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1825)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2930)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.1ms | Allocations: 3183)
+
+
