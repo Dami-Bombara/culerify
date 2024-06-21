@@ -4,35 +4,30 @@
 </div>
 
 <div>
-  <table class="mt-4 text-center">
+  <table class="mt-4 text-center w-full">
     <thead>
-      <tr class="bg-gray-100 border border-blue-500">
-        <th class="py-3">ID</th>
-        <th>Name</th>
-        <th>Age</th>
-        <th>Country</th>
-        <th>Position</th>
-        <th>Kit number</th>
-        <th>Actions</th>
+      <tr class="bg-gray-100">
+        <th class="py-2" style="width: 1%">ID</th>
+        <th style="width: 20%">Name</th>
+        <th style="width: 1%">Age</th>
+        <th style="width: 10%">Country</th>
+        <th style="width: 5%">POS</th>
+        <th style="width: 5%">#</th>
+        <th colspan="2" style="width: 1%">Actions</th>
       </tr>
     </thead>
 
     <% @culer.each do |culer| %>
       <tbody>
-          <td><%= culer.id %></td>
+        <tr class="border-t border-gray-100">
+          <td class="py-2"><%= culer.id %></td>
           <td><%= link_to culer.name, culer_path(culer.id) %></td>
           <td><%= culer.age %></td>
           <td><%= culer.country %></td>
           <td><%= culer.position %></td>
           <td><%= culer.kit_number %></td>
-          <td>
-            <div class="flex justify-center space-x-4">
-              <%= link_to 'Edit', edit_culer_path(culer.id) %>
-              <%= form_with url: destroy_culer_path(culer.id), method: :delete do |f| %>
-                <%= f.submit 'Delete' %>
-              <% end %>
-            </div>
-          </td>
+          <td class="px-2"><%= link_to 'Edit', edit_culer_path(culer.id), class: "px-2 py-1 border border-gray-200 text-gray-600 rounded-md" %> </td>
+          <td><%= button_to 'Delete', destroy_culer_path(culer.id), method: :delete, class: "ml-2 px-2 py-1 bg-rose-100 text-rose-700 rounded" %></td>
         </tr>
       </tbody>
     <% end %>

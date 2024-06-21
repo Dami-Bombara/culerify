@@ -1,1 +1,4 @@
-<%= render partial: 'form', locals: { url: culer_path(id: @culer.id), method_value: :patch, submit_text: "Update Culer!" } %>
+<h1 class="text-[rgb(237,187,0)] text-2xl font-semibold">Edit Culer</h1>
+<div class="mt-4">
+  <%= render partial: 'form', locals: { url: culer_path(id: @culer.id), method_value: :patch, submit_text: "Update Culer!" } %>
+</div>

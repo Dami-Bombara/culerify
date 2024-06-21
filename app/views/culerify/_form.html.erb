@@ -8,33 +8,33 @@
     </ul>
   <% end %>
   </div>
-
     <div>
-      <%= form.label :name %>
-      <%= form.text_field :name %>
+      <%= form.label :name, class: "text-gray-700" %>
+      <%= form.text_field :name, class: "mb-4 rounded w-full" %>
     </div>
 
     <div>
       <%= form.label :age %>
-      <%= form.number_field :age %>
+      <%= form.number_field :age, class: "mb-4 rounded w-full"  %>
     </div>
 
     <div>
       <%= form.label :country %>
-      <%= form.text_field :country %>
+      <%= form.text_field :country, class: "mb-4 rounded w-full"  %>
     </div>
 
     <div>
       <%= form.label :position %>
-      <%= form.text_field :position %>
+      <%= form.text_field :position, class: "mb-4 rounded w-full"  %>
     </div>
 
     <div>
       <%= form.label :kit_number %>
-      <%= form.number_field :kit_number %>
+      <%= form.number_field :kit_number, class: "mb-4 rounded w-full"  %>
     </div>
 
-    <%= form.submit submit_text %>
+    <div class="flex flex-row-reverse justify-between items-center">
+      <%= form.submit submit_text, class: "mb-4 px-4 py-2 bg-[rgb(168,19,62)] text-[rgb(237,187,0)] rounded-md font-md" %>
 <% end %>
-
-<%= link_to 'Back to Culers', culerify_path %>
+      <%= link_to 'Cancel', culerify_path, class: "text-gray-500"%>
+    </div>
