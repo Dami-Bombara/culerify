@@ -1,5 +1,5 @@
-<h1><%= @culer.name %> #<%= @culer.kit_number %></h1>
-<h2>Position: <%= @culer.position %> </h2>
+<h1 class="text-2xl font-semibold mb-2"><%= @culer.name %> #<%= @culer.kit_number %></h1>
+<h2>Age: <%= @culer.age %></h2>
 <h3>Country: <%= @culer.country %></h3>
-<h3>Age: <%= @culer.age %></h3>
-<%= link_to 'Back to all culers', culerify_path %>
+<h2 class="mb-4">Position: <%= @culer.position %> </h2>
+<%= link_to '<- Back', culerify_path, class: "text-gray-400" %>

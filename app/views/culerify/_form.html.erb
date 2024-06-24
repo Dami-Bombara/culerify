@@ -1,40 +1,45 @@
 <%= form_with model: @culer, url: url, method: method_value do |form| %>
   <div>
   <% if @culer.errors.any? %>
-    <ul>
+    <ul class="text-red-700">
       <% @culer.errors.each do |error| %>
         <li><%= error.full_message %></li>
       <% end %>
     </ul>
   <% end %>
   </div>
-    <div>
+
+    <div class="mt-4">
       <%= form.label :name, class: "text-gray-700" %>
       <%= form.text_field :name, class: "mb-4 rounded w-full" %>
     </div>
 
     <div>
-      <%= form.label :age %>
+      <%= form.label :age, class: "text-gray-700" %>
       <%= form.number_field :age, class: "mb-4 rounded w-full"  %>
     </div>
 
     <div>
-      <%= form.label :country %>
+      <%= form.label :country, class: "text-gray-700" %>
       <%= form.text_field :country, class: "mb-4 rounded w-full"  %>
     </div>
 
     <div>
-      <%= form.label :position %>
+      <%= form.label :position, class: "text-gray-700" %>
       <%= form.text_field :position, class: "mb-4 rounded w-full"  %>
     </div>
 
     <div>
-      <%= form.label :kit_number %>
+      <%= form.label :kit_number, class: "text-gray-700" %>
       <%= form.number_field :kit_number, class: "mb-4 rounded w-full"  %>
     </div>
 
-    <div class="flex flex-row-reverse justify-between items-center">
-      <%= form.submit submit_text, class: "mb-4 px-4 py-2 bg-[rgb(168,19,62)] text-[rgb(237,187,0)] rounded-md font-md" %>
-<% end %>
-      <%= link_to 'Cancel', culerify_path, class: "text-gray-500"%>
+  <div class="flex flex-row-reverse justify-between items-center">
+    <div>
+      <%= form.submit submit_text, class: "px-4 py-2 bg-[rgb(168,19,62)] text-[rgb(237,187,0)] rounded-md font-md" %>
     </div>
+    <% end %>
+    <div>
+      <%= link_to 'Cancel', culerify_path, class: "text-gray-500" %>
+    </div>
+  </div>

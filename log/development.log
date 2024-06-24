@@ -15567,3 +15567,2895 @@ Processing by CulerifyController#show as HTML
 Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.1ms | Allocations: 6106)
 
 
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:01:37 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (1.7ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 1822)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 7027)
+Completed 200 OK in 23ms (Views: 15.1ms | ActiveRecord: 2.3ms | Allocations: 7279)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:01:40 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.6ms | Allocations: 1226)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1313)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 6518)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 6775)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:01:40 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1503)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 6708)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.1ms | Allocations: 6960)
+
+
+Started GET "/culerify/20/edit" for 127.0.0.1 at 2024-06-24 13:01:44 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.2ms | Allocations: 1243)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1352)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 6553)
+Completed 200 OK in 13ms (Views: 10.0ms | ActiveRecord: 0.2ms | Allocations: 7192)
+
+
+Started GET "/culerify/19" for 127.0.0.1 at 2024-06-24 13:01:46 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 48)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 5489)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.1ms | Allocations: 6091)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:01:47 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1506)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 6711)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.1ms | Allocations: 6963)
+
+
+Started GET "/culerify/20" for 127.0.0.1 at 2024-06-24 13:01:48 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 5488)
+Completed 200 OK in 14ms (Views: 11.7ms | ActiveRecord: 0.1ms | Allocations: 6090)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:01:49 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1536)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 6742)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.1ms | Allocations: 6995)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:01:50 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 5497)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.1ms | Allocations: 6100)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:01:51 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1518)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 6723)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.1ms | Allocations: 6975)
+
+
+Started GET "/culerify/1/edit" for 127.0.0.1 at 2024-06-24 13:01:55 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 3.0ms | Allocations: 1219)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1328)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 6537)
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.1ms | Allocations: 7139)
+
+
+Started PATCH "/culerify/1" for 127.0.0.1 at 2024-06-24 13:01:59 +0200
+Processing by CulerifyController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"Lamine Yamal", "age"=>"16", "country"=>"Spain", "position"=>"LW", "kit_number"=>"27"}, "commit"=>"Update Culer!", "id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+Redirected to http://127.0.0.1:3000/culerify/1
+Completed 302 Found in 3ms (ActiveRecord: 0.1ms | Allocations: 980)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:01:59 +0200
+Processing by CulerifyController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 5509)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 6114)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:02:00 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1515)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 6720)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.1ms | Allocations: 6972)
+
+
+Started GET "/culerify/20/edit" for 127.0.0.1 at 2024-06-24 13:07:53 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.6ms | Allocations: 1255)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1364)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 6565)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.1ms | Allocations: 7167)
+
+
+Started GET "/culerify/19/edit" for 127.0.0.1 at 2024-06-24 13:07:54 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.2ms | Allocations: 1241)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1350)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 6551)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.1ms | Allocations: 7153)
+
+
+Started GET "/culerify/4/edit" for 127.0.0.1 at 2024-06-24 13:07:54 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.7ms | Allocations: 1228)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1337)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 6538)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.1ms | Allocations: 7140)
+
+
+Started GET "/culerify/1/edit" for 127.0.0.1 at 2024-06-24 13:39:06 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (2.5ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 3.9ms | Allocations: 1249)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1358)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 6559)
+Completed 200 OK in 23ms (Views: 15.1ms | ActiveRecord: 3.6ms | Allocations: 7445)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:39:07 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.6ms | Allocations: 1202)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1289)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 6497)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 6754)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:39:08 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1551)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 6757)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.2ms | Allocations: 7009)
+
+
+Started GET "/culerify/2/edit" for 127.0.0.1 at 2024-06-24 13:39:09 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.9ms | Allocations: 1243)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1352)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 6562)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.1ms | Allocations: 7165)
+
+
+Started GET "/culerify/1/edit" for 127.0.0.1 at 2024-06-24 13:39:09 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.8ms | Allocations: 1222)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1331)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 6549)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.1ms | Allocations: 7152)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:39:11 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1524)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 6730)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.1ms | Allocations: 6982)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:39:12 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 5503)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.1ms | Allocations: 6105)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:39:14 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1497)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 6702)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.1ms | Allocations: 6954)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:39:36 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 245)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 22331)
+Completed 200 OK in 21ms (Views: 16.0ms | ActiveRecord: 1.2ms | Allocations: 28683)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:39:43 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1878)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 7100)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.2ms | Allocations: 7414)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:39:44 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.4ms | Allocations: 1708)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1956)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 7161)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 7488)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:39:45 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1521)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 6727)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.1ms | Allocations: 6979)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:39:47 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 5488)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.1ms | Allocations: 6090)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:39:47 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1509)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 6714)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.1ms | Allocations: 6966)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:39:48 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1536)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 6741)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.1ms | Allocations: 6993)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:40:10 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 245)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 22324)
+Completed 200 OK in 13ms (Views: 8.9ms | ActiveRecord: 1.0ms | Allocations: 28676)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:40:19 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 245)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 22339)
+Completed 200 OK in 13ms (Views: 8.9ms | ActiveRecord: 0.9ms | Allocations: 28691)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:40:25 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 245)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 22317)
+Completed 200 OK in 11ms (Views: 7.6ms | ActiveRecord: 1.0ms | Allocations: 28669)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:40:34 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1888)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 7093)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.2ms | Allocations: 7407)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:40:35 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 5497)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.1ms | Allocations: 6099)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:40:37 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1521)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 6726)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.1ms | Allocations: 6978)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:40:38 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 5503)
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 0.1ms | Allocations: 6105)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:40:41 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 5506)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 6108)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:41:17 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 246)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 22309)
+Completed 200 OK in 21ms (Views: 15.5ms | ActiveRecord: 4.2ms | Allocations: 28661)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:41:18 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 5500)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.1ms | Allocations: 6102)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:41:18 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1882)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 7087)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.2ms | Allocations: 7401)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:41:20 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 5509)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.1ms | Allocations: 6111)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:41:22 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1518)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 6723)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.1ms | Allocations: 6975)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:41:31 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 22346)
+Completed 200 OK in 14ms (Views: 9.1ms | ActiveRecord: 1.0ms | Allocations: 28699)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:41:52 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 22325)
+Completed 200 OK in 12ms (Views: 7.9ms | ActiveRecord: 1.0ms | Allocations: 28640)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:42:32 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 22322)
+Completed 200 OK in 17ms (Views: 12.5ms | ActiveRecord: 1.1ms | Allocations: 28637)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:42:33 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1876)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 7089)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.2ms | Allocations: 7403)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:43:16 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 248)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 22320)
+Completed 200 OK in 15ms (Views: 11.5ms | ActiveRecord: 1.1ms | Allocations: 28615)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:43:17 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1894)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 7113)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.2ms | Allocations: 7427)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:43:22 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 248)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 23434)
+Completed 200 OK in 17ms (Views: 13.2ms | ActiveRecord: 1.2ms | Allocations: 29787)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:43:23 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1867)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 7083)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.2ms | Allocations: 7397)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:43:39 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 249)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 22310)
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 1.1ms | Allocations: 28662)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:43:54 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1878)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 7095)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.2ms | Allocations: 7409)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:43:55 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1509)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 6726)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.1ms | Allocations: 6978)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:44:22 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1527)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 6733)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.1ms | Allocations: 6985)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:44:23 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 5508)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.1ms | Allocations: 6110)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:44:33 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1515)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 6720)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.1ms | Allocations: 6972)
+
+
+Started GET "/culerify/1/edit" for 127.0.0.1 at 2024-06-24 13:44:34 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.6ms | Allocations: 1737)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 3.7ms | Allocations: 2009)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 7210)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.1ms | Allocations: 7872)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:44:36 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1542)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 6747)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.1ms | Allocations: 6999)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:44:47 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1512)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 6717)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.1ms | Allocations: 6969)
+
+
+Started GET "/culerify/2" for 127.0.0.1 at 2024-06-24 13:45:05 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 5493)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.1ms | Allocations: 6095)
+
+
+Started GET "/culerify/20/edit" for 127.0.0.1 at 2024-06-24 13:45:06 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.8ms | Allocations: 1228)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1337)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 6539)
+Completed 200 OK in 12ms (Views: 7.5ms | ActiveRecord: 0.1ms | Allocations: 7141)
+
+
+Started GET "/culerify/1/edit" for 127.0.0.1 at 2024-06-24 13:47:53 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.5ms | Allocations: 1240)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1349)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 6564)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.1ms | Allocations: 7167)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:48:06 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 5743)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 27566)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 1.1ms | Allocations: 29169)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:48:24 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 210)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 5663)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.1ms | Allocations: 6976)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:48:37 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 253)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 22310)
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 1.0ms | Allocations: 28662)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:48:38 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1868)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 7073)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.2ms | Allocations: 7387)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:48:43 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1545)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 6750)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.1ms | Allocations: 7002)
+
+
+Started GET "/culerify/2" for 127.0.0.1 at 2024-06-24 13:48:44 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 5475)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.1ms | Allocations: 6077)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:48:44 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.3ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 5496)
+Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.2ms | Allocations: 6098)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:48:50 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 253)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 22377)
+Completed 200 OK in 17ms (Views: 12.7ms | ActiveRecord: 0.9ms | Allocations: 28729)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:48:54 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 252)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 22339)
+Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 1.0ms | Allocations: 28693)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:49:03 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1889)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 7094)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.2ms | Allocations: 7408)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 13:49:04 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 5496)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.1ms | Allocations: 6098)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:49:27 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1530)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 6735)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms | Allocations: 6987)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:49:28 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.2ms | Allocations: 1714)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1962)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 7167)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 7495)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:49:29 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.9ms | Allocations: 2624)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2746)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 7947)
+Completed 422 Unprocessable Content in 12ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 9262)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:49:35 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"Wueh", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.9ms | Allocations: 1720)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1799)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 7000)
+Completed 422 Unprocessable Content in 10ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 8124)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:49:52 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"Wueh", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.1ms | Allocations: 2256)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2564)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 24390)
+Completed 422 Unprocessable Content in 17ms (Views: 13.1ms | ActiveRecord: 1.0ms | Allocations: 30726)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:50:10 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.0ms | Allocations: 1771)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 2042)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 23918)
+Completed 200 OK in 16ms (Views: 10.1ms | ActiveRecord: 1.1ms | Allocations: 29224)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:50:11 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.0ms | Allocations: 2483)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2605)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 7818)
+Completed 422 Unprocessable Content in 9ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 9118)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:50:19 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.3ms | Allocations: 3000)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 3304)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 26355)
+Completed 422 Unprocessable Content in 20ms (Views: 16.2ms | ActiveRecord: 1.1ms | Allocations: 32661)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:50:19 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 0.8ms | Allocations: 1209)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1296)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 6512)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 6777)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:50:22 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.2ms | Allocations: 2464)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2543)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 7745)
+Completed 422 Unprocessable Content in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 8867)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:50:28 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.4ms | Allocations: 3000)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 3308)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 26288)
+Completed 422 Unprocessable Content in 21ms (Views: 15.3ms | ActiveRecord: 1.0ms | Allocations: 32618)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:50:28 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 0.9ms | Allocations: 1212)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1299)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 6513)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 6778)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:50:29 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.3ms | Allocations: 2464)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2543)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 7744)
+Completed 422 Unprocessable Content in 11ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 8869)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:51:05 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.3ms | Allocations: 1753)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2026)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 23857)
+Completed 200 OK in 15ms (Views: 11.1ms | ActiveRecord: 1.1ms | Allocations: 29204)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:51:06 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.4ms | Allocations: 2483)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 2605)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 7806)
+Completed 422 Unprocessable Content in 11ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 9094)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:51:15 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.3ms | Allocations: 3000)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 3308)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 25134)
+Completed 422 Unprocessable Content in 17ms (Views: 12.9ms | ActiveRecord: 1.1ms | Allocations: 31458)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:51:15 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.4ms | Allocations: 2464)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2543)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 7744)
+Completed 422 Unprocessable Content in 11ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 8865)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:51:16 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.7ms | Allocations: 2464)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 2543)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 7744)
+Completed 422 Unprocessable Content in 11ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 8877)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:51:16 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.4ms | Allocations: 2464)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 2543)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 7744)
+Completed 422 Unprocessable Content in 12ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 8880)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:51:21 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.2ms | Allocations: 2999)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 3307)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 25136)
+Completed 422 Unprocessable Content in 15ms (Views: 11.0ms | ActiveRecord: 1.0ms | Allocations: 31454)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:51:44 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.0ms | Allocations: 1757)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2030)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 23861)
+Completed 200 OK in 15ms (Views: 11.2ms | ActiveRecord: 1.0ms | Allocations: 29207)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:51:45 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.8ms | Allocations: 2483)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 2605)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 7806)
+Completed 422 Unprocessable Content in 10ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 9097)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:54:08 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.3ms | Allocations: 3001)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 3309)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 25135)
+Completed 422 Unprocessable Content in 17ms (Views: 13.0ms | ActiveRecord: 1.0ms | Allocations: 31463)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:54:36 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.4ms | Allocations: 3001)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 3307)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 25133)
+Completed 422 Unprocessable Content in 15ms (Views: 10.9ms | ActiveRecord: 1.2ms | Allocations: 31425)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:54:37 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.4ms | Allocations: 2464)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2543)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 7744)
+Completed 422 Unprocessable Content in 12ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 8871)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:54:38 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.1ms | Allocations: 1209)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1296)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 6501)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 6765)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:54:40 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.1ms | Allocations: 2464)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2543)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 7745)
+Completed 422 Unprocessable Content in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 8878)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:54:52 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.2ms | Allocations: 3001)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 3307)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 25135)
+Completed 422 Unprocessable Content in 15ms (Views: 11.7ms | ActiveRecord: 1.0ms | Allocations: 31454)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:54:55 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 0.9ms | Allocations: 1224)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1311)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 6516)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 6781)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:54:57 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.5ms | Allocations: 2464)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 2543)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 7744)
+Completed 422 Unprocessable Content in 11ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 8859)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:56:04 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.0ms | Allocations: 1794)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 2065)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 23899)
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 0.9ms | Allocations: 29208)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 13:56:06 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.9ms | Allocations: 2263)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2385)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 7586)
+Completed 422 Unprocessable Content in 9ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 8860)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:56:13 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.0ms | Allocations: 1751)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 2022)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 23857)
+Completed 200 OK in 13ms (Views: 9.1ms | ActiveRecord: 1.1ms | Allocations: 29166)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:56:26 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.0ms | Allocations: 1797)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2068)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 23903)
+Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 1.0ms | Allocations: 29212)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:56:31 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.1ms | Allocations: 1751)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 2024)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 23858)
+Completed 200 OK in 13ms (Views: 9.4ms | ActiveRecord: 1.1ms | Allocations: 29205)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:56:48 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 0.9ms | Allocations: 1778)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2051)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 23882)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 1.0ms | Allocations: 29229)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:56:54 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.1ms | Allocations: 1801)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2074)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 23905)
+Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 1.0ms | Allocations: 29252)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:57:01 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.2ms | Allocations: 1804)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 23908)
+Completed 200 OK in 15ms (Views: 10.6ms | ActiveRecord: 0.9ms | Allocations: 29273)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:57:06 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 0.9ms | Allocations: 1777)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2050)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 23881)
+Completed 200 OK in 12ms (Views: 8.6ms | ActiveRecord: 1.0ms | Allocations: 29229)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 13:57:06 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1903)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 7108)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.2ms | Allocations: 7460)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:57:12 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.0ms | Allocations: 1781)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 2052)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 23883)
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.9ms | Allocations: 29192)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:57:24 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.0ms | Allocations: 1808)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 2079)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 23943)
+Completed 200 OK in 13ms (Views: 9.2ms | ActiveRecord: 1.0ms | Allocations: 29252)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:57:36 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.5ms | Allocations: 1805)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 2074)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 24006)
+Completed 200 OK in 22ms (Views: 17.7ms | ActiveRecord: 1.1ms | Allocations: 29295)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:57:57 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.1ms | Allocations: 1808)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 2081)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 23936)
+Completed 200 OK in 16ms (Views: 10.0ms | ActiveRecord: 1.1ms | Allocations: 29284)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:58:06 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.0ms | Allocations: 1790)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2063)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 23894)
+Completed 200 OK in 15ms (Views: 11.8ms | ActiveRecord: 1.0ms | Allocations: 29241)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:58:12 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.0ms | Allocations: 1799)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 2072)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 23903)
+Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 1.0ms | Allocations: 29250)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:58:23 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.0ms | Allocations: 1790)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 2063)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 23958)
+Completed 200 OK in 14ms (Views: 10.9ms | ActiveRecord: 1.1ms | Allocations: 29305)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:58:27 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 0.9ms | Allocations: 1792)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2065)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 23897)
+Completed 200 OK in 12ms (Views: 8.6ms | ActiveRecord: 0.9ms | Allocations: 29246)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:58:42 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.0ms | Allocations: 1784)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 2055)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 23886)
+Completed 200 OK in 12ms (Views: 8.4ms | ActiveRecord: 1.0ms | Allocations: 29195)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:58:47 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.1ms | Allocations: 1790)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2061)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 23926)
+Completed 200 OK in 14ms (Views: 9.5ms | ActiveRecord: 1.0ms | Allocations: 29236)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 13:59:10 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.1ms | Allocations: 1780)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2053)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 23917)
+Completed 200 OK in 18ms (Views: 12.3ms | ActiveRecord: 1.0ms | Allocations: 29265)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:01:06 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 0.4ms | Allocations: 1563)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1850)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 1950)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 1.1ms | Allocations: 7312)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with model: @culer, url: url, method: method_value do |form| %>
+  <div>
+  <% if @culer.errors.any? %>
+    <ul class="text-red-700">
+      <li>!</li>
+      <% @culer.errors.each do |error| %>
+        <li><%= error.full_message %></li>
+      <% end %>
+    </ul>
+  <% end %>
+  </div>
+
+    <div class="mt-4">
+      <%= form.label :name, class: "text-gray-700" %>
+      <%= form.text_field :name, class: "mb-4 rounded w-full" %>
+    </div>
+
+    <div>
+      <%= form.label :age, class: "text-gray-700" %>
+      <%= form.number_field :age, class: "mb-4 rounded w-full"  %>
+    </div>
+
+    <div>
+      <%= form.label :country, class: "text-gray-700" %>
+      <%= form.text_field :country, class: "mb-4 rounded w-full"  %>
+    </div>
+
+    <div>
+      <%= form.label :position, class: "text-gray-700" %>
+      <%= form.text_field :position, class: "mb-4 rounded w-full"  %>
+    </div>
+
+    <div>
+      <%= form.label :kit_number, class: "text-gray-700" %>
+      <%= form.number_field :kit_number, class: "mb-4 rounded w-full"  %>
+    </div>
+
+  <div class="flex flex-row-reverse justify-between items-center border border-blue-200 p-4">
+    <div>
+      <%= form.submit submit_text, class: "px-4 py-2 bg-[rgb(168,19,62)] text-[rgb(237,187,0)] rounded-md font-md" %>
+    </div>
+    <div>
+      <%= link_to 'Cancel', culerify_path, class: "text-gray-500" %>
+    </div>
+  </div>
+
+):
+1:    <%= form_with model: @culer, url: url, method: method_value do |form| %>
+2:      <div>
+3:      <% if @culer.errors.any? %>
+4:        <ul class="text-red-700">
+5:          <li>!</li>
+6:          <% @culer.errors.each do |error| %>
+7:            <li><%= error.full_message %></li>
+8:          <% end %>
+9:        </ul>
+10:      <% end %>
+11:      </div>
+12:    
+13:        <div class="mt-4">
+14:          <%= form.label :name, class: "text-gray-700" %>
+15:          <%= form.text_field :name, class: "mb-4 rounded w-full" %>
+16:        </div>
+17:    
+18:        <div>
+19:          <%= form.label :age, class: "text-gray-700" %>
+20:          <%= form.number_field :age, class: "mb-4 rounded w-full"  %>
+21:        </div>
+22:    
+23:        <div>
+24:          <%= form.label :country, class: "text-gray-700" %>
+25:          <%= form.text_field :country, class: "mb-4 rounded w-full"  %>
+26:        </div>
+27:    
+28:        <div>
+29:          <%= form.label :position, class: "text-gray-700" %>
+30:          <%= form.text_field :position, class: "mb-4 rounded w-full"  %>
+31:        </div>
+32:    
+33:        <div>
+34:          <%= form.label :kit_number, class: "text-gray-700" %>
+35:          <%= form.number_field :kit_number, class: "mb-4 rounded w-full"  %>
+36:        </div>
+37:    
+38:      <div class="flex flex-row-reverse justify-between items-center border border-blue-200 p-4">
+39:        <div>
+40:          <%= form.submit submit_text, class: "px-4 py-2 bg-[rgb(168,19,62)] text-[rgb(237,187,0)] rounded-md font-md" %>
+41:        </div>
+42:        <div>
+43:          <%= link_to 'Cancel', culerify_path, class: "text-gray-500" %>
+44:        </div>
+45:      </div>
+  
+app/views/culerify/_form.html.erb:48: syntax error, unexpected end-of-input
+app/views/culerify/new.html.erb:4
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:01:13 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.2ms | Allocations: 1783)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2056)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 25036)
+Completed 200 OK in 20ms (Views: 16.8ms | ActiveRecord: 1.0ms | Allocations: 30381)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:01:27 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.0ms | Allocations: 1827)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 2100)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 23931)
+Completed 200 OK in 14ms (Views: 9.5ms | ActiveRecord: 1.0ms | Allocations: 29277)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:01:43 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 0.9ms | Allocations: 1812)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 2085)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 23916)
+Completed 200 OK in 14ms (Views: 10.5ms | ActiveRecord: 1.0ms | Allocations: 29264)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:01:50 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.1ms | Allocations: 1794)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2065)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 23897)
+Completed 200 OK in 13ms (Views: 9.2ms | ActiveRecord: 1.0ms | Allocations: 29206)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:01:59 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.1ms | Allocations: 1809)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2080)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 23913)
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 0.9ms | Allocations: 29222)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:02:12 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 0.9ms | Allocations: 1793)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 2066)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 23899)
+Completed 200 OK in 12ms (Views: 8.4ms | ActiveRecord: 1.1ms | Allocations: 29246)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 14:02:17 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.5ms | Allocations: 2499)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2621)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 7822)
+Completed 422 Unprocessable Content in 12ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 9107)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:02:22 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.3ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1914)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 7119)
+Completed 200 OK in 13ms (Views: 9.9ms | ActiveRecord: 0.3ms | Allocations: 7471)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 14:02:23 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.3ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 5644)
+Completed 200 OK in 11ms (Views: 7.5ms | ActiveRecord: 0.3ms | Allocations: 6952)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 14:02:40 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 253)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 22343)
+Completed 200 OK in 13ms (Views: 8.7ms | ActiveRecord: 1.0ms | Allocations: 28696)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 14:02:46 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 253)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 23467)
+Completed 200 OK in 15ms (Views: 11.2ms | ActiveRecord: 1.0ms | Allocations: 29819)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:03:13 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1891)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 7111)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.2ms | Allocations: 7426)
+
+
+Started GET "/culerify/1/edit" for 127.0.0.1 at 2024-06-24 14:03:14 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 3.0ms | Allocations: 1805)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2077)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 7295)
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.1ms | Allocations: 7957)
+
+
+Started GET "/culerify/1/edit" for 127.0.0.1 at 2024-06-24 14:03:15 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.1ms | Allocations: 1241)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1350)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 6551)
+Completed 200 OK in 11ms (Views: 8.3ms | ActiveRecord: 0.1ms | Allocations: 7153)
+
+
+Started PATCH "/culerify/1" for 127.0.0.1 at 2024-06-24 14:03:19 +0200
+Processing by CulerifyController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"16", "country"=>"Spain", "position"=>"LW", "kit_number"=>"27"}, "commit"=>"Update Culer!", "id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.0ms | Allocations: 1769)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1913)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 7114)
+Completed 422 Unprocessable Content in 10ms (Views: 7.4ms | ActiveRecord: 0.1ms | Allocations: 9073)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:03:21 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1518)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 6723)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.1ms | Allocations: 6975)
+
+
+Started GET "/culerify/19" for 127.0.0.1 at 2024-06-24 14:03:32 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 5494)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.1ms | Allocations: 6096)
+
+
+Started GET "/culerify/19" for 127.0.0.1 at 2024-06-24 14:03:33 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 5491)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.1ms | Allocations: 6093)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:04:00 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.1ms | Allocations: 1809)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 2082)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 23913)
+Completed 200 OK in 19ms (Views: 14.9ms | ActiveRecord: 1.1ms | Allocations: 29259)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 14:04:01 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"", "age"=>"", "country"=>"", "position"=>"", "kit_number"=>""}, "commit"=>"Add to Culers!"}
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.7ms | Allocations: 2499)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2621)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 7822)
+Completed 422 Unprocessable Content in 12ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 9116)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:05:19 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.1ms | Allocations: 1798)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 2071)
+  Rendered layout layouts/application.html.erb (Duration: 36.0ms | Allocations: 23977)
+Completed 200 OK in 41ms (Views: 36.8ms | ActiveRecord: 0.9ms | Allocations: 29323)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:05:20 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1905)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 7117)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.2ms | Allocations: 7469)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:05:31 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1521)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 6733)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.1ms | Allocations: 6985)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:05:32 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 72)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 5534)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 5980)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:06:23 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 22203)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 23083)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:06:29 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 22248)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 23128)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:06:31 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 8.2ms | Allocations: 5709)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 10930)
+Completed 200 OK in 18ms (Views: 12.3ms | ActiveRecord: 2.5ms | Allocations: 12098)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:06:32 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.6ms | Allocations: 1760)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 2008)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 7213)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 7541)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 14:06:35 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 5644)
+Completed 200 OK in 11ms (Views: 7.2ms | ActiveRecord: 0.2ms | Allocations: 6956)
+
+
+Started GET "/culerify/1/edit" for 127.0.0.1 at 2024-06-24 14:06:36 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.8ms | Allocations: 1272)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1477)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 6678)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.1ms | Allocations: 7340)
+
+
+Started PATCH "/culerify/1" for 127.0.0.1 at 2024-06-24 14:06:38 +0200
+Processing by CulerifyController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"Lamine Yamal", "age"=>"16", "country"=>"Spain", "position"=>"LW", "kit_number"=>"27"}, "commit"=>"Update Culer!", "id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+Redirected to http://127.0.0.1:3000/culerify/1
+Completed 302 Found in 4ms (ActiveRecord: 0.1ms | Allocations: 1128)
+
+
+Started GET "/culerify/1" for 127.0.0.1 at 2024-06-24 14:06:38 +0200
+Processing by CulerifyController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 5494)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 6142)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:06:39 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1515)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 6720)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.1ms | Allocations: 6972)
+
+
+Started GET "/culerify/1/edit" for 127.0.0.1 at 2024-06-24 14:06:41 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.1ms | Allocations: 1271)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1380)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 6581)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.1ms | Allocations: 7183)
+
+
+Started PATCH "/culerify/1" for 127.0.0.1 at 2024-06-24 14:06:49 +0200
+Processing by CulerifyController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"Lamine Yamal", "age"=>"16", "country"=>"", "position"=>"LW", "kit_number"=>"27"}, "commit"=>"Update Culer!", "id"=>"1"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.8ms | Allocations: 1769)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1913)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 7114)
+Completed 422 Unprocessable Content in 12ms (Views: 8.4ms | ActiveRecord: 0.1ms | Allocations: 8902)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:06:53 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1515)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 6720)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.1ms | Allocations: 6972)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:06:53 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.7ms | Allocations: 1230)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1317)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 6535)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 6793)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:06:55 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1527)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 6732)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.1ms | Allocations: 6985)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:06:57 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.8ms | Allocations: 1233)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1320)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 6536)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 6794)
+
+
+Started POST "/culerify" for 127.0.0.1 at 2024-06-24 14:07:14 +0200
+Processing by CulerifyController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "culer"=>{"name"=>"Cristiano Ronaldo", "age"=>"39", "country"=>"Portugal", "position"=>"ST", "kit_number"=>"7"}, "commit"=>"Add to Culers!"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/culerify_controller.rb:17:in `create'
+  [1m[36mCuler Create (1.2ms)[0m  [1m[32mINSERT INTO "culers" ("name", "age", "country", "position", "kit_number", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", "Cristiano Ronaldo"], ["age", 39], ["country", "Portugal"], ["position", "ST"], ["kit_number", 7], ["created_at", "2024-06-24 12:07:14.603445"], ["updated_at", "2024-06-24 12:07:14.603445"]]
+  ↳ app/controllers/culerify_controller.rb:17:in `create'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/culerify_controller.rb:17:in `create'
+Redirected to http://127.0.0.1:3000/culerify/25
+Completed 302 Found in 6ms (ActiveRecord: 1.8ms | Allocations: 1979)
+
+
+Started GET "/culerify/25" for 127.0.0.1 at 2024-06-24 14:07:14 +0200
+Processing by CulerifyController#show as TURBO_STREAM
+  Parameters: {"id"=>"25"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 5501)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.1ms | Allocations: 6106)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:07:16 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1675)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 6880)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.1ms | Allocations: 7132)
+
+
+Started GET "/culerify/20" for 127.0.0.1 at 2024-06-24 14:07:17 +0200
+Processing by CulerifyController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/show.html.erb within layouts/application
+  Rendered culerify/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 5490)
+Completed 200 OK in 9ms (Views: 7.2ms | ActiveRecord: 0.1ms | Allocations: 6092)
+
+
+Started GET "/culerify/25/edit" for 127.0.0.1 at 2024-06-24 14:07:18 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.2ms | Allocations: 1248)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1357)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 6559)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.1ms | Allocations: 7161)
+
+
+Started DELETE "/culerify/25" for 127.0.0.1 at 2024-06-24 14:07:19 +0200
+Processing by CulerifyController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"25"}
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 25], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  [1m[36mCuler Destroy (0.1ms)[0m  [1m[31mDELETE FROM "culers" WHERE "culers"."id" = ?[0m  [["id", 25]]
+  ↳ app/controllers/culerify_controller.rb:36:in `destroy'
+Redirected to http://127.0.0.1:3000/culerify
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms | Allocations: 1091)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:07:19 +0200
+Processing by CulerifyController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.0ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1518)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 6723)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 6978)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:07:24 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.1ms | Allocations: 1233)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1320)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 6525)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 6782)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:07:27 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.1ms | Allocations: 1215)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1302)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 6507)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 6764)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:07:31 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 5493)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 5732)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:07:54 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 22234)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 23114)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:08:30 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 1083)
+  Rendered layout layouts/application.html.erb (Duration: 0.5ms | Allocations: 1183)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2078)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="text-[rgb(237,187,0)] text-4xl font-medium mb-4">Homepage</div>
+<%= link_to "Culers", culerify_path, class: "bg-blue-200"  } %>
+):
+1:    <div class="text-[rgb(237,187,0)] text-4xl font-medium mb-4">Homepage</div>
+2:    <%= link_to "Culers", culerify_path, class: "bg-blue-200"  } %>
+  
+app/views/home/index.html.erb:2: syntax error, unexpected '}', expecting ')'
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:09:33 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 23337)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 24216)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:09:37 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 5477)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 5715)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:09:39 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.4ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 5714)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 10923)
+Completed 200 OK in 20ms (Views: 12.7ms | ActiveRecord: 3.2ms | Allocations: 12090)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:09:40 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1519)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 6724)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.1ms | Allocations: 6976)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:13:48 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1539)
+  Rendered layout layouts/application.html.erb (Duration: 28.2ms | Allocations: 6744)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.1ms | Allocations: 6996)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:14:27 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 22231)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 23111)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:14:54 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 22264)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 23144)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:15:03 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 22235)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 23115)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:15:11 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 161)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 22250)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 23130)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:15:47 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 22227)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 23107)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:16:44 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 22247)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 23127)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:16:56 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 22254)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 23134)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:18:36 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 22259)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 23139)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:18:41 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.6ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 5696)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 10905)
+Completed 200 OK in 17ms (Views: 10.4ms | ActiveRecord: 3.2ms | Allocations: 12072)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:19:14 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 22270)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 23152)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:19:18 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 168)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 23412)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 24292)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:19:54 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 23378)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 24258)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:19:58 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 22243)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 23124)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:20:25 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 23429)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 24309)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:21:58 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 22258)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 23139)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:22:01 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 5478)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 5716)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:22:38 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 33.2ms | Allocations: 23423)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.0ms | Allocations: 24303)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:22:45 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 23277)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 24156)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:22:50 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 22353)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 23233)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:23:03 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 23408)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 24287)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:23:12 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 22276)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 23156)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:23:23 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 22265)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 23145)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:25:15 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 22240)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 23122)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:25:19 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 5478)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 5716)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:25:20 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 5484)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 5722)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:25:20 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.5ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 5720)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 10929)
+Completed 200 OK in 18ms (Views: 11.6ms | ActiveRecord: 3.1ms | Allocations: 12097)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:25:24 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 42)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 5484)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 5722)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:25:39 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 22252)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 23133)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:25:45 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 23414)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 24295)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:25:58 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 22278)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 23159)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:27:08 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 22318)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 23199)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:27:18 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 22260)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 23140)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:27:38 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 23408)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 24287)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:27:45 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 23390)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 24269)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:27:52 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 22246)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 23128)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:27:59 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 168)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 22260)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 23141)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:28:02 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 23415)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 24296)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:28:07 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 22264)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 23145)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:28:12 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 22263)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 23144)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:28:33 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 23538)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 24419)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:28:45 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 22261)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 23141)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:28:57 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.6ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 5708)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 10917)
+Completed 200 OK in 19ms (Views: 11.6ms | ActiveRecord: 3.4ms | Allocations: 12085)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:29:23 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 22337)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 23217)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:29:43 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 23392)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 24273)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:29:52 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 168)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 23403)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 24284)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:30:00 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 22250)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 23131)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:30:06 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 22230)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 23111)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:30:12 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 23397)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 24277)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:30:16 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 23403)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 24284)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:30:17 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.6ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 5698)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 10913)
+Completed 200 OK in 18ms (Views: 11.2ms | ActiveRecord: 3.4ms | Allocations: 12081)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:30:19 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1519)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 6724)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.2ms | Allocations: 6977)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:30:26 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 22246)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 23126)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:30:31 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 22261)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 23141)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:30:35 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 22243)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 23125)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:30:38 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 168)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 23396)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 24277)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:30:47 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 22261)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 23142)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:31:04 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 22260)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 23141)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:31:13 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 22257)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 23138)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:31:25 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 22266)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 23146)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:31:35 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.6ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 5732)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 10941)
+Completed 200 OK in 16ms (Views: 10.2ms | ActiveRecord: 2.8ms | Allocations: 12109)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:33:13 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 22266)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 23146)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:33:19 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 5732)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 10957)
+Completed 200 OK in 21ms (Views: 15.0ms | ActiveRecord: 2.3ms | Allocations: 12126)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:33:21 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.6ms | Allocations: 1754)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2004)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 7217)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 7545)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:33:36 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 5493)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 5731)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:33:37 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1516)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 6721)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.1ms | Allocations: 6973)
+
+
+Started GET "/culerify/new" for 127.0.0.1 at 2024-06-24 14:33:38 +0200
+Processing by CulerifyController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/new.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 2.2ms | Allocations: 1215)
+  Rendered culerify/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1302)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 6507)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 6764)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:33:40 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.4ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1509)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 6714)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.4ms | Allocations: 6966)
+
+
+Started GET "/culerify/20/edit" for 127.0.0.1 at 2024-06-24 14:33:43 +0200
+Processing by CulerifyController#edit as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mCuler Load (0.2ms)[0m  [1m[34mSELECT "culers".* FROM "culers" WHERE "culers"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/culerify_controller.rb:47:in `set_culer'
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/edit.html.erb within layouts/application
+  Rendered culerify/_form.html.erb (Duration: 1.9ms | Allocations: 1284)
+  Rendered culerify/edit.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1489)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 6690)
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 0.2ms | Allocations: 8002)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:33:45 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.1ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1518)
+  Rendered layout layouts/application.html.erb (Duration: 26.6ms | Allocations: 6724)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.1ms | Allocations: 6976)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:33:48 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 5516)
+Completed 200 OK in 30ms (Views: 27.8ms | ActiveRecord: 0.0ms | Allocations: 5755)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:33:56 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 22310)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 23190)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:34:05 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 22252)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 23132)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:34:09 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 22262)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 23142)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:34:14 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 23410)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 24289)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:34:15 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.5ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 5723)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 10941)
+Completed 200 OK in 21ms (Views: 14.6ms | ActiveRecord: 3.2ms | Allocations: 12109)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:34:22 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 168)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 22243)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 23123)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:34:28 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 22254)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 23136)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:34:33 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 166)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 22256)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 23137)
+
+
+Started GET "/culerify" for 127.0.0.1 at 2024-06-24 14:34:41 +0200
+Processing by CulerifyController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering culerify/index.html.erb within layouts/application
+  [1m[36mCuler Load (0.5ms)[0m  [1m[34mSELECT "culers".* FROM "culers"[0m
+  ↳ app/views/culerify/index.html.erb:20
+  Rendered culerify/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 5699)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 10908)
+Completed 200 OK in 17ms (Views: 10.5ms | ActiveRecord: 3.0ms | Allocations: 12076)
+
+
+Started GET "/" for 127.0.0.1 at 2024-06-24 14:34:51 +0200
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 41)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 5489)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 5727)
+
+
