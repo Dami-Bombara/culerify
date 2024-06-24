@@ -1,4 +1,4 @@
-atabases:
+databases:
   - name: culerify
     databaseName: culerify
     user: culerify
